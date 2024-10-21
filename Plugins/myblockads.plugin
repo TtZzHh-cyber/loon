@@ -367,14 +367,14 @@ http-response ^https:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? script-path = 
 http-response ^https:\/\/www\.washpayer\.com\/user\/message\/equipmentPara\? script-path = https://raw.githubusercontent.com/TtZzHh-cyber/Loon/main/Scripts/changyuan.js, requires-body = true, tag = changyuan
 
 # 京东 //api.m.jd.com
-http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?:deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path = https://raw.githubusercontent.comTtZzHh-cyber/Loon/main/Scripts/jingdong.js, requires-body = true, tag = jingdong
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?:deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path = https://raw.githubusercontent.com/TtZzHh-cyber/Loon/main/Scripts/jingdong.js, requires-body = true, tag = jingdong
 
 # 酷安 //api.coolapk.com
 http-response ^https:\/\/api\.coolapk\.com\/v6\/(?:feed\/detail|feed\/replyList|page\/dataList|main\/dataList|main\/indexV8|main\/init) script-path = https://raw.githubusercontent.com/TtZzHh-cyber/Loon/main/Scripts/coolapk.js, requires-body = true, tag = coolapk
 
 # 酷狗音乐 //adserviceretry.kglink.cn, gateway.kugou.com
 http-response ^https:\/\/gateway\.kugou\.com\/(?:adp\/ad\/v1\/mine_top_banner|ads\.gateway\/v2\/home_card) script-path = https://raw.githubusercontent.com/TtZzHh-cyber/Loon/main/Scripts/kugou.js, requires-body = true, tag = kg_gateway
-http-response ^https?:\/\/adserviceretry\.kglink\.cn\/v\d\/mobile\w+ script-path = https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/kugou.js, requires-body = true, tag = kg_linkcn
+http-response ^https?:\/\/adserviceretry\.kglink\.cn\/v\d\/mobile\w+ script-path = https://raw.githubusercontent.com/TtZzHh-cyber/Loon/main/Scripts/kugou.js, requires-body = true, tag = kg_linkcn
 
 # 微信封禁页面 //weixin110.qq.com, security.wechat.com
 http-response ^https\:\/\/(?:weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path = https://raw.githubusercontent.com/TtZzHh-cyber/Loon/main/Scripts/wechat/unlockUrls.js, requires-body = true, tag = wechat
